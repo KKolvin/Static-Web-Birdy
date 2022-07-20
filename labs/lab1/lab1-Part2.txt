@@ -1,0 +1,13 @@
+Kewen Liu
+username: kewenliu
+I'm seeking extra points for both problems.
+
+https://cs-people.bu.edu/kewenliu/cs103/lab1/part2/css_zen_garden.html
+
+https://cs-people.bu.edu/kewenliu/cs103/lab1/part2/index.html
+new tags added: <hr>, comment tag, <i>, <caption>, <strong>
+
+The similarity of <em> and <i> is that they both italicize characters, and <strong> and <b> both bolden characters.
+The similarity is that the visual effect of them appear to be the same in web browser.
+The difference is that <i> and <b> only play a visual role of making text in some certain styles (italicize, bolden), 
+while <em> and <strong> have semantic meaning of marking up text as importance and words that need to be emphasized.

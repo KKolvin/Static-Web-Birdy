@@ -1,0 +1,40 @@
+*{margin:0;}
+body{background-color: #f3e0dc;}
+
+#page-wrapper{margin: 6vw 6vw 2vw 6vw;}
+
+header{color: #F0EBF4; text-align: center; background-color: #b39bc8; padding: 3% 0 4% 0;}
+h1{font-size: calc(20px + 5.2vw); padding: 0 0 2% 0;}
+h2{font-size: calc(3px + 1.8vw);}
+#header2{font-variant: small-caps;}
+
+nav{text-align: center; padding:1vw 0 1vw 0; background-color: pink;}
+li.nav-bar{list-style-type:none; margin: 10%; color: #8a7f80; display: inline;
+    text-transform: uppercase; font-size: calc(3px + 1.2vw);}
+
+#content{padding: 2vw; color:#545454; font-size: calc(3px + 1.3vw); padding-left: 3%; background-color: #a1c3d1;}
+#content h2{text-align: center; color: #463222; padding: 1.5vw 0;}
+h3{margin: 3.8vw 0 1vw 0; color: #3d3228;}
+a{color: rgb(154, 86, 191);}
+#gallery{text-align: center; margin: 5vw 0 3vw 0;}
+img{max-width: 40%; height: auto; margin: 1vw 1.2vw 1vw 1.2vw; 
+    border: solid #91a3b0 2vw; box-sizing: border-box;}
+li{margin-top: 0.3vw;}
+
+footer{text-align: center; font-size: calc(3px + 1.2vw); padding: 4vw 0 2vw 0; color: #473b32;}
+
+@media screen and (min-width: 768px) {
+    /* two columns layout - container: nav and content */
+    #container{box-sizing: border-box; float: left; width: 100%; 
+        background-color: pink;}
+    /* for different scrollbar */
+    #container, #page-wrapper, html, body{height: 98%;}
+    nav{box-sizing: border-box; float: left; width: 16%; padding: 6vw 14vw 10vw 0;
+        height: 100%;
+        overflow: scroll;}
+    li.nav-bar{display: block; padding: 2vw 0 5vw 0; }
+    #content{box-sizing: border-box; float: left; width: 84%;
+        height: 100%;
+        overflow: scroll;}
+    footer{clear: both;}
+}

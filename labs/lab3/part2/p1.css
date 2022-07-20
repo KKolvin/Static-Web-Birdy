@@ -1,0 +1,16 @@
+body{background-color:#404040;}
+
+div{margin-top:100px; margin-bottom:100px; margin-left:100px; margin-right:100px; padding-top:50px; 
+    padding-bottom:50px; padding-left:50px; padding-right:50px; 
+    background-color:white; 
+    box-shadow:40px 40px 70px lightgray, -40px -40px 70px lightgray; 
+    border-radius: 60px; transform: rotate(7deg);}
+
+header{text-align:center;transform: rotate(-7deg);}
+
+footer{text-align:center;transform: rotate(-7deg);}
+
+article{transform: rotate(-7deg); 
+    border-bottom-color: hotpink; border-top-color: hotpink; 
+    border-bottom-width: 5px; border-top-width: 5px; 
+    border-bottom-style: solid; border-top-style: solid;}

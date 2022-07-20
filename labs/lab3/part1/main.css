@@ -1,0 +1,17 @@
+h1{color:red; background-color:#000000; font-size:50px; text-align:center;}
+
+h2{color:rgb(255,255,255); background-color:hsl(120, 100%, 25%); font-weight:500; text-decoration:underline;}
+
+h3{color:yellow; font-style:oblique; line-height: 1.35; word-spacing: .5em;}
+
+p{color:#e8a221; font-variant:small-caps;}
+
+ul{background-color:#b0cc94; letter-spacing: 0.04em;}
+
+ol{color:lightgray; background-color:hsl(0, 100%, 100%); letter-spacing: 0.0625em;}
+
+body{background-color:hsla(303, 85%, 34%, 1);}
+
+em{text-transform:lowercase;}
+
+strong{text-shadow:3px 3px 5px blue;}
