@@ -1,0 +1,11 @@
+Kewen Liu
+username: kewenliu
+
+https://cs-people.bu.edu/kewenliu/cs103/lab5/part2/zaizai.html
+    I used fonts including trebuchet MS as Mac-friendly font and PC-friendly font, and sans-serif as generic font family.
+    I used Media Queries to make a 2-column layout for a screen that's at least 768px wide, and the gallery has 2 photos on 
+        a row. When the width of the browser gets smaller than 768px, the page layout becomes 1 column and the gallery
+        will have 1 photo on each row.
+    The section "How to take care of Zaizai" is hidden when the screen gets smaller than 768px.
+https://cs-people.bu.edu/kewenliu/cs103/lab5/part2/linktext.html
+https://cs-people.bu.edu/kewenliu/cs103/lab5/part2/problem3/gallery.html

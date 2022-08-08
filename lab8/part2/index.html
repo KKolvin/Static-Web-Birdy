@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator | Lab 8</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Philosopher" />
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <h1>Simple Calculator</h1>
+
+            <div id="content">
+                <input type="text" id="box1" autocomplete="off">
+                <input type="text" id="box2" autocomplete="off">
+
+                <div id="operators">
+                    <button type="button" onclick="add()"> + </button>
+                    <button type="button" onclick="minus()"> - </button>
+                    <button type="button" onclick="mul()"> * </button>
+                    <button type="button" onclick="div()"> / </button>
+                    <button type="button" onclick="exp()"> ^ </button>
+                </div>  
+
+
+                <p id="box3"><strong>Result:</strong> &nbsp; <span id="res"></span></p>
+                <button id="clear" type="button" onclick="cle()"> clear </button><br>
+            </div>
+
+            <footer>
+                <p>Background image <a href="https://flickr.com/photos/rubyblossom/8778513241/in/photolist-enJb9z-2mdZLsZ-G4ttB5-7Eq68Z-2kVS72G-2maDnKF-PqVuMi-2m78xTp-2m36GQn-5F1VZ9-2mftsLP-2m6WWDN-2m4dRUX-5B6pje-Cs8igf-2kXERrc-H5Fbg-ASkoxE-Eb6uAp-RsncfG-DMzSYH-4iEmvB-aX9NYT-RZ112N-BrPD2-PfQm1g-a1v7P3-NqwXnc-RxdVu6-pj4WG5-8ynDK4-WG2wFP-2nfRGwo-T77omC-2keF6UM-awSgid-2m3NPW1-8NnnS8-bhiVpP-a7vFXe-8XrsuP-2foJCWA-cjjazL-zCb8wf-E1SxtJ-5mPFL1-aofKco-bnzM8c-9PWFsq-dv9FQh">Grassy Background</a>
+                 provided by Flickr user <a href="https://flickr.com/photos/rubyblossom/">rubyblossom.</a> under CC lisence <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC 2.0</a>   
+                 &nbsp; &nbsp; <em><strong>Kewen Liu</strong></em> &copy; 2022</p>  
+            </footer>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

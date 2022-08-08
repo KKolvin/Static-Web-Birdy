@@ -1,0 +1,22 @@
+Kewen Liu
+username: kewenliu
+
+Problem 1:
+    https://cs-people.bu.edu/kewenliu/cs103/lab6/part2/lab6-part2-problem1/
+
+Problem 2:
+    Template name is Solid State
+    https://cs-people.bu.edu/kewenliu/cs103/lab6/part2/lab6-part2-problem2/
+    https://cs-people.bu.edu/kewenliu/cs103/lab6/part2/lab6-part2-problem2/generic.html
+
+Problem3:
+    Website of fewer than 10 color contrast errors: https://www.mbta.com/
+        Number of errors: 7
+
+    Website of more than 10 color contrast errors: https://www.w3schools.com/
+    Number of errors: 21
+        Parts that don’t have high contrast: all the green buttons
+        Failing color combination: slightly dark aqua green and white
+
+Problem4:
+    https://cs-people.bu.edu/kewenliu/cs103/lab6/part2/validator.html

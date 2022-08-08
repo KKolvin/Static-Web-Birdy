@@ -1,0 +1,63 @@
+*{margin: 0; box-sizing: border-box;}
+
+.box1, .box2, .box3, .box4{
+    position: absolute;
+    transform: rotateZ(-12deg);
+    height: 30vw; width: 30vw; 
+    border: 2vw solid #c3c9cd; box-shadow: 0 0 6px rgba(0, 0, 0, .5); 
+    margin-top: 3em;
+    background-color: #c3c9cd;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;}
+
+.box1{background-image: url("../../lab4/part2/1.JPG");}   
+.box2{background-image: url("../../lab4/part2/2.JPG");}
+.box3{background-image: url("../../lab4/part2/3.JPG");}
+.box4{background-image: url("../../lab4/part2/4.JPG"); margin-bottom: 3em;}
+
+.text{color: white; text-align: center; 
+    padding-top: 15vh; font-family: Arial, Helvetica, sans-serif; 
+    background-color: rgba(0, 0, 0, .7);
+    height: 100%;}
+
+.text{opacity: 0;}
+
+.box1:hover .text{opacity: 1;}
+.box2:hover .text{opacity: 1;}
+.box3:hover .text{opacity: 1;}
+.box4:hover .text{opacity: 1;}
+
+.text{transition:opacity 2s linear;}
+
+.rotate-boxes{position: relative; top: 5vh;}
+
+.box1{left: 10%; z-index: 4; transition: transform 1s;}
+.box2{left: 25%; z-index: 3; transition: transform 1s;}
+.box3{left: 40%; z-index: 2; transition: transform 1s;}
+.box4{left: 55%; z-index: 1; transition: transform 1s;}
+
+.box1:hover {z-index:10; transform: rotateZ(0) scale(1.2,1.2);}
+.box2:hover {z-index:10; transform: rotateZ(0) scale(1.2,1.2);}
+.box3:hover {z-index:10; transform: rotateZ(0) scale(1.2,1.2);}
+.box4:hover {z-index:10; transform: rotateZ(0) scale(1.2,1.2);}
+
+
+/* for decoration of the rest of the elements */
+body{background-color: #f3e0dc;}
+#page-wrapper{margin: 5%; background-color: #a1c3d1;}
+
+header{color: #F0EBF4; text-align: center; background-color: #b39bc8; padding: 3% 0 4% 0;}
+h1{font-size: calc(20px + 5.2vw); padding: 0 0 2% 0;}
+h2{font-size: calc(3px + 1.8vw);}
+#header2{font-variant: small-caps;}
+
+nav{text-align: center; padding:1vw 0 1vw 0; background-color: pink;}
+nav li{list-style-type:none; margin: 8%; color: #8a7f80; display: inline;
+    text-transform: uppercase; font-size: calc(3px + 1.2vw);}
+
+#content{color:#545454; text-align: center; font-size: calc(3px + 1.3vw); padding-bottom: 65vh;}
+p{margin-top: 2vw;}
+
+/* footer{position:fixed; bottom:0; padding-bottom: 2vw;} */
+footer{text-align: center; font-size: calc(3px + 1.2vw); color: #473b32; padding-bottom: 1vw;}
