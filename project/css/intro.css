@@ -1,0 +1,144 @@
+/* @import url("https://fonts.googleapis.com/css?family=Questrial");
+@import url("https://fonts.googleapis.com/css?family=Quicksand"); */
+
+body {
+  /* background-color: rgb(145, 167, 154); */
+  background-color: rgb(227, 231, 228);
+}
+
+#bgVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  }
+
+/* hide the nav bar*/ 
+nav{top: -50px;}
+
+/* position of the header part */
+header {
+  position: absolute;
+  top: 30%;
+  left: 13vw;
+}
+
+h1, h2, button{
+  color: white;
+  position: absolute;
+}
+
+h1 {font-size: calc(5px + 7vw);}
+
+h2 {
+  letter-spacing: 1px;
+  font-size: calc(5px + 1.3vw);
+  top: 8vw;
+  width: 50vw;
+  left: 0.5vw;
+}
+
+#h2-2 {
+  top: 11vw;
+}
+
+h2 span {
+  font-variant: small-caps;
+  font-size: 1.2em;}
+
+#enter {
+  font-size: calc(3px + 1vw);
+  top: 19vw;
+  left: 0.6vw;
+  border: 0px;
+  padding: 0.5vw 2vw;
+}
+
+
+/* animation of header */
+h1, h2, #enter {
+  animation: 1.5s lineUp ease-out;
+}
+
+@keyframes lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  10% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+
+/* button effect */
+#enter {
+  color: #FFF;
+  background-color: rgba(255,255,255,0.1);
+  transition: all 0.3s;
+  position: relative;
+}
+#enter span {
+  transition: all 0.3s;
+}
+#enter::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgba(255,255,255,0.5);
+  border-bottom-color: rgba(255,255,255,0.5);
+  transform: scale(0.1, 1);
+}
+#enter:hover span {
+  color: white;
+  text-shadow: 2px 2px 2px orange;
+  letter-spacing: 2px;
+}
+#enter:hover::before {
+  opacity: 1; 
+  transform: scale(1, 1); 
+}
+#enter::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(255,255,255,0.1);
+}
+#enter:hover::after {
+  opacity: 0; 
+  transform: scale(0.1, 1);
+}
+#enter:active span{
+  color:blueviolet;
+  text-shadow: none;}
+
+
+@media only screen and (max-width: 576px) {
+  h2 {top:10vw;}
+
+  #h2-2 {top: 14vw;}
+
+  #enter {top: 27vw;}
+}

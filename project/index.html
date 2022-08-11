@@ -2,26 +2,28 @@
 <html lang="en">
     <head>
         <title>Home | Birdy</title>
+        <link rel="shortcut icon" href="img/icon.png">
         <meta charset="utf-8" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
         <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-        <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">  
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Questrial" />
-        <link rel="stylesheet" type="text/css" href="intro.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quicksand" />
+        <link rel="stylesheet" type="text/css" href="css/general.css">
+        <link rel="stylesheet" type="text/css" href="css/intro.css">
     </head>
 
     <body>
-        <div id="wrapper"></div>
+        <div id="wrapper">
             <video autoplay muted loop id="bgVideo">
-                <source src="vid/bg2.mov" type="video/mp4" width="100px" height="auto">
+                <source src="vid/bg2.mov" type="video/mp4">
             </video>
 
             <nav>
-                <img id="logo" src="img/icon.png">
+                <a href="index.html"><img id="logo" src="img/icon.png" alt="logo" width="" height=""></a>
                 <div id="navbar">
-                    <a href="#">About</a>
-                    <a href="#">Expert Tips</a>
-                    <a href="#">Blog</a>
+                    <a href="about.html">About</a>
+                    <a href="blog.html">Blogs</a>
                     <a href="gallery.html">Gallery</a>
                     <a href="#">Home</a>
                 </div>
@@ -29,26 +31,23 @@
 
             <header>
                 <h1>Birdy</h1>
-                <h2>Welcome to the Land of Birds!</h2>
-                <a href="gallery.html"><button id="enter" onkeydown="if (event.key === 'Enter')
-                    document.getElementById('enter').click()"><span>Explore Now</span></button></a>
+                <h2>Hey birdwatchers, </h2> <h2 id="h2-2">welcome to the <span id="special">Park of Birds</span>!</h2>
+                <button id="enter" onclick="location.href='gallery.html'"><span>Explore Now</span></button>
             </header>
 
             <footer>
                 <div class="social">
                     <a href="https://instagram.com/cho_haam_lye?igshid=NWRhNmQxMjQ="><i class="icon-instagram"></i></a>
                     <a href="index.html"><i class="icon-dribbble"></i></a>
-                    <a href="#"><i class="icon ion-social-twitter"></i></a>
-                    <a href="#"><i class="icon ion-social-facebook"></i></a>
+                    <a href="https://github.com/KKolvin/Web-Programming"><i class="icon-github"></i></a>
                 </div>
 
                 <ul class="list-inline">
                     <li class="list-inline-item"><a href="#">Home</a></li>
-                    <li class="list-inline-item"><a href="#">Gallery</a></li>
-                    <li class="list-inline-item"><a href="#">Blog</a></li>
-                    <li class="list-inline-item"><a href="#">Expert Tips</a></li>
-                    <li class="list-inline-item"><a href="#">About</a></li>
-                    <li class="list-inline-item"><a href="#">Credit</a></li>
+                    <li class="list-inline-item"><a href="gallery.html" target="_blank">Gallery</a></li>
+                    <li class="list-inline-item"><a href="blog.html" target="_blank">Blogs</a></li>
+                    <li class="list-inline-item"><a href="about.html" target="_blank">About</a></li>
+                    <li class="list-inline-item"><a href="credit.html" target="_blank">Credits</a></li>
                 </ul>
                 <p class="copyright">Kewen Liu &copy; 2022. All rights reserved.</p>
             </footer>
@@ -56,6 +55,6 @@
 
         </div>
 
-        <script src="main.js"></script>
+        <script src="js/intro.js"></script>
     </body>
 </html>
